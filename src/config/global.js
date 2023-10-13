@@ -33,26 +33,26 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: '1.	Identificación de los componentes ambientales',
+        titulo: 'Identificación de los componentes ambientales',
         desarrolloContenidos: true,
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: '2.	Interpretación y descripción de las afectaciones a la salud',
+        titulo: 'Interpretación y descripción de las afectaciones a la salud',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: '3.	Análisis de las condiciones sanitarias',
+        titulo: 'Análisis de las condiciones sanitarias',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: '4.	Reportes sanitarios',
+        titulo: 'Reportes sanitarios',
         desarrolloContenidos: true,
       },
     ],
