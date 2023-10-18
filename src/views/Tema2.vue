@@ -17,35 +17,38 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12 Los impactos ambientales que más afectan a la salud son:
-
+    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .row 
-          .col-lg-2
-            figure
-              img(src='@/assets/curso/temas/tema2/img2.svg', alt='')
-          .col-lg-4
-            ul.lista-ul
-              li
-                i.lista-ul__vineta
-                | Las alteraciones de los ecosistemas.
-              li
-                i.lista-ul__vineta
-                | La desigualdad.
-              li
-                i.lista-ul__vineta
-                | La acelerada urbanización.
-          .col-lg-4
-            ul.lista-ul
-              li
-                i.lista-ul__vineta
-                | El cambio climático.
-              li
-                i.lista-ul__vineta
-                | El exceso consumismo y el desecho de residuos.
-              li
-                i.lista-ul__vineta
-                | Los modelos de producción insostenibles.
+        .cajon.tarj-color.p-4.mb-4
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-10
+              .row 
+                .col-lg-2.col-md-6.col-sm-6
+                  figure
+                    img(src='@/assets/curso/temas/tema2/img2.svg', alt='')
+                .col-lg-4
+                  ul.lista-ul
+                    li
+                      i.lista-ul__vineta
+                      | Las alteraciones de los ecosistemas.
+                    li
+                      i.lista-ul__vineta
+                      | La desigualdad.
+                    li
+                      i.lista-ul__vineta
+                      | La acelerada urbanización.
+                .col-lg-4
+                  ul.lista-ul
+                    li
+                      i.lista-ul__vineta
+                      | El cambio climático.
+                    li
+                      i.lista-ul__vineta
+                      | El exceso consumismo y el desecho de residuos.
+                    li
+                      i.lista-ul__vineta
+                      | Los modelos de producción insostenibles.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -62,6 +65,11 @@
       .col-md-10.desktop 
         figure
           img(src='@/assets/curso/temas/tema2/img3.1.svg', alt='En la figura 3 se muestra las afectaciones de salud, provocadas por el comportamiento climático y como algunas de las epidemias se propagan entre la población por factores como la falta de agua y los cambios bruscos en el ambiente.')
+          figcaption Nota. Tomado y adaptado del Boletín Epidemiológico del Ministerio de Salud (2018).
+      
+      .col-md-10.movil 
+        figure
+          img(src='@/assets/curso/temas/tema2/img3.2.svg', alt='En la figura 3 se muestra las afectaciones de salud, provocadas por el comportamiento climático y como algunas de las epidemias se propagan entre la población por factores como la falta de agua y los cambios bruscos en el ambiente.')
           figcaption Nota. Tomado y adaptado del Boletín Epidemiológico del Ministerio de Salud (2018).
 
     .row.justify-content-center.align-items-center.mb-5
@@ -110,13 +118,13 @@
             figure
               img(src='@/assets/curso/temas/tema2/img20.svg', alt='')
 
-    .row.justify-content-center.align-items-center.mb-5
+    row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .row.justify-content-center.align-items-center.mb-5
-          .col-lg-2
-            figure
-              img(src='@/assets/curso/temas/tema2/img21.svg', alt='')
-          .col-lg-10
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema2/img21.svg' alt='AvatarTop')
+          .tarjeta(style="background-color:#FFEBDF")
+            .p-4
             p Las sustancias tóxicas y elementos naturales inorgánicos como el mercurio o el plomo pueden ser inhalados, ingeridos o absorbidos. Esto sucede porque no solo respiramos por la nariz, sino también los poros de nuestra piel están absorbiendo constantemente las sustancias que nos rodean haciendo que vayamos acumulando carga tóxica, y cuando sobrepasa los límites aceptables, empiezan a agravarse las enfermedades por la contaminación ambiental.
 
     .row
@@ -124,7 +132,7 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
-          .tarjeta.tarjeta--azul(style="background-color:#C1E29A;height:50px;margin-left: -16%;")
+          .tarjeta.tarjeta--azul.tituhoja(style="background-color:#C1E29A;margin-left: -16%;")
             .row.justify-content-center.align-items-center              
               .col-lg-12
                 h2(style="color:#264100").mt-2 Tipos y componentes
@@ -190,7 +198,7 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
-          .tarjeta.tarjeta--azul(style="background-color:#C1E29A;height:50px;margin-left: -16%;")
+          .tarjeta.tarjeta--azul.tituhoja(style="background-color:#C1E29A;margin-left: -16%;")
             .row.justify-content-center.align-items-center              
               .col-lg-12
                 h2(style="color:#264100").mt-2 Sistema de alerta temprana ambiental para los efectos en salud
@@ -210,13 +218,16 @@
       .col-md-10.desktop 
         figure
           img(src='@/assets/curso/temas/tema2/img32.svg', alt='En la figura 4 se muestran los tipos de vigilancia y variables para la evaluación de riesgos.')
+      .col-md-10.movil
+        figure
+          img(src='@/assets/curso/temas/tema2/img32_1.svg', alt='En la figura 4 se muestran los tipos de vigilancia y variables para la evaluación de riesgos.')
 
     .row
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
-          .tarjeta.tarjeta--azul(style="background-color:#C1E29A;height:50px;margin-left: -16%;")
+          .tarjeta.tarjeta--azul.tituhoja(style="background-color:#C1E29A;margin-left: -16%;")
             .row.justify-content-center.align-items-center              
               .col-lg-12
                 h2(style="color:#264100").mt-2 Amenazas y emergencias ambientales

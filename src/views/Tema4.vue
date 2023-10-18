@@ -23,7 +23,7 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
-          .tarjeta.tarjeta--azul(style="background-color:#C1E29A;height:50px;margin-left: -16%;")
+          .tarjeta.tarjeta--azul.tituhoja(style="background-color:#C1E29A;margin-left: -16%;")
             .row.justify-content-center.align-items-center              
               .col-lg-12.tith
                 h2.mt-2 Concepto e historia de la epidemiología
@@ -116,7 +116,7 @@
         .col-lg-6
           h3 Quinto Tiberio Angelerio
           p Se publica la primera referencia del término Epidemiologia
-      .row(titulo="123" subtitulo="")
+      .row(titulo="Siglo V" subtitulo="")
         .col-lg-6
           h3 La plaga
           p Azotó al mundo ya recibió el nombre de epidemia.
@@ -159,7 +159,7 @@
       .row(titulo="Siglo XX" subtitulo="")
         .col-lg-6
           h3 La epidemiología
-          p D|esarrolló con mayor precisión los conceptos de exposición, riesgo, asociación, confusión y sesgo, e incorporó el uso franco de la teoría de la probabilidad y de un sin número de técnicas de estadística avanzada.
+          p Desarrolló con mayor precisión los conceptos de exposición, riesgo, asociación, confusión y sesgo, e incorporó el uso franco de la teoría de la probabilidad y de un sin número de técnicas de estadística avanzada.
       .row(titulo="Siglo XXI" subtitulo="")
         .col-lg-6
           h3 Avance de programas preventivos y de promoción de la salud.
@@ -169,7 +169,7 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
-          .tarjeta.tarjeta--azul(style="background-color:#C1E29A;height:50px;margin-left: -16%;")
+          .tarjeta.tarjeta--azul.tituhoja(style="background-color:#C1E29A;margin-left: -16%;")
             .row.justify-content-center.align-items-center              
               .col-lg-12.tith
                 h2.mt-2 Sistema de vigilancia
@@ -257,7 +257,7 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
-          .tarjeta.tarjeta--azul(style="background-color:#C1E29A;height:50px;margin-left: -16%;")
+          .tarjeta.tarjeta--azul.tituhoja(style="background-color:#C1E29A;margin-left: -16%;")
             .row.justify-content-center.align-items-center              
               .col-lg-12.tith
                 h2.mt-2 Entomología en salud pública
@@ -305,7 +305,7 @@
             img(src='@/assets/curso/temas/tema4/img13.png' alt='AvatarTop')
           .tarjeta.tarjeta-verde
             .p-4
-              p Un caso cercano que realza la necesidad de este ámbito de estudio para asegurar la salud pública es el peligro potencial de introducción de virus tropicales como el chikungunya o el dengue, de la mano del mosquito tigre, aedes albopictus, que hasta hace poco no tenía cabida en los territorios templados de Colombia. Con el paso del tiempo se está viendo una proliferación de las enfermedades tropicales transmitidas por artrópodos en Occidente.
+              p Un caso cercano que realza la necesidad de este ámbito de estudio para asegurar la salud pública es el peligro potencial de introducción de virus tropicales como el #[i chikungunya] o el dengue, de la mano del mosquito tigre, #[i aedes albopictus], que hasta hace poco no tenía cabida en los territorios templados de Colombia. Con el paso del tiempo se está viendo una proliferación de las enfermedades tropicales transmitidas por artrópodos en Occidente.
 
 </template>
 

@@ -7,7 +7,7 @@
         span 1
       h1 Identificación de los componentes ambientales
       
-    .cajon.color-secundario.p-4.mb-4
+    .cajon.color-secundario.p-4.mb-4(style="background-color:#D5FFF5;")
       p Los componentes ambientales del medio ambiente están constituidos por todos los elementos que integran el entorno, los cuales están funcionalmente interrelacionados y estructurados, se componen de elementos bióticos (aquellos que tienen vida) y abióticos (aquellos que no tienen vida), los cuales forman parte de toda la biósfera del planeta Tierra.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
@@ -33,6 +33,11 @@
       .col-md-8.desktop 
         figure
           img(src='@/assets/curso/temas/tema1/img2.svg', alt='En la figura 1 se muestran algunas consideraciones a tener en cuenta dentro de los componentes del medio ambiente.')
+        figcaption Nota: Adaptado de BlogDidáctico.com (2016)
+      .col-md-8.movil 
+        figure
+          img(src='@/assets/curso/temas/tema1/img2.1.svg', alt='En la figura 1 se muestran algunas consideraciones a tener en cuenta dentro de los componentes del medio ambiente.')
+        figcaption Nota: Adaptado de BlogDidáctico.com (2016)
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -158,23 +163,23 @@
           span  #[i  Responsabilidad cultural]
     
     .row.justify-content-center.mb-5(data-aos="fade-left")
-      .col-md-2.desktop 
+      .col-lg-2 
         figure
           img(src='@/assets/curso/temas/tema1/img16.svg', alt='')
     
-      .col-md-2.desktop 
+      .col-lg-2
         figure
           img(src='@/assets/curso/temas/tema1/img16_1.svg', alt='')
       
-      .col-md-2.desktop 
+      .col-lg-2
         figure
           img(src='@/assets/curso/temas/tema1/img16_2.svg', alt='')
       
-      .col-md-2.desktop 
+      .col-lg-2
         figure
           img(src='@/assets/curso/temas/tema1/img16_3.svg', alt='')
 
-      .col-md-2.desktop 
+      .col-lg-2
         figure
           img(src='@/assets/curso/temas/tema1/img16_4.svg', alt='')
 
@@ -187,10 +192,10 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
-          .tarjeta.tarjeta--azul(style="background-color:#C1E29A;height:50px;margin-left: -16%;")
+          .tarjeta.tarjeta--azul.tituhoja(style="background-color:#C1E29A;margin-left: -16%;")
             .row.justify-content-center.align-items-center              
               .col-lg-12
-                h2(style="color:#264100").mt-2 Zoonosis y protocolos en el manejo de la fauna
+                h3(style="color:#264100").mt-2 Zoonosis y protocolos en el manejo de la fauna
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(

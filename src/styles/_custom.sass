@@ -131,7 +131,7 @@
 .lista-ol--cuadro__vineta
     background-color: #3B5620
 .tarj-color
-  background: linear-gradient(180deg, #DBF9BD 0%, rgb(255, 250, 208) 100%)
+  background: linear-gradient(180deg, #EFFCFF 50%, rgb(250, 255, 255) 100%)
 
 //// Tarjetas --------------------------------------
 .crd
@@ -225,8 +225,22 @@
   max-width: 55%
   margin-top: -15px
 .tith h2
-  color:#632059
+  color:#264100
 
 .tarjeta-verdeti
   background-color:#C1E29A
   max-height: 50px
+
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+  .tituhoja
+    height: 50px
+
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none

@@ -27,6 +27,10 @@
         figure
           img(src='@/assets/curso/temas/tema3/img2.svg', alt='En la figura 5 se muestran las necesidades y problemas sanitarios.')
           figcaption Nota. Ministerio de Salud (2018)
+      .col-md-8.movil
+        figure
+          img(src='@/assets/curso/temas/tema3/img2_1.svg', alt='En la figura 5 se muestran las necesidades y problemas sanitarios.')
+          figcaption Nota. Ministerio de Salud (2018)
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -90,7 +94,7 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
-          .tarjeta.tarjeta--azul(style="background-color:#C1E29A;height:50px;margin-left: -16%;")
+          .tarjeta.tarjeta--azul.tituhoja(style="background-color:#C1E29A;margin-left: -16%;")
             .row.justify-content-center.align-items-center              
               .col-lg-12
                 h2(style="color:#264100").mt-2 Factores de riesgo a la salud
@@ -111,7 +115,7 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
-          .tarjeta.tarjeta--azul(style="background-color:#C1E29A;height:50px;margin-left: -16%;")
+          .tarjeta.tarjeta--azul.tituhoja(style="background-color:#C1E29A;margin-left: -16%;")
             .row.justify-content-center.align-items-center              
               .col-lg-12
                 h2(style="color:#264100").mt-2 Tipos y clases
@@ -193,7 +197,7 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
-          .tarjeta.tarjeta--azul(style="background-color:#C1E29A;height:50px;margin-left: -16%;")
+          .tarjeta.tarjeta--azul.tituhoja(style="background-color:#C1E29A;margin-left: -16%;")
             .row.justify-content-center.align-items-center              
               .col-lg-12
                 h2(style="color:#264100").mt-2 Enfermedades transmitidas por alimentoss
@@ -222,7 +226,7 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
-          .tarjeta.tarjeta--azul(style="background-color:#C1E29A;height:50px;margin-left: -16%;")
+          .tarjeta.tarjeta--azul.tituhoja(style="background-color:#C1E29A;margin-left: -16%;")
             .row.justify-content-center.align-items-center              
               .col-lg-12
                 h2(style="color:#264100").mt-2 Buenas prácticas
@@ -230,7 +234,7 @@
       .col-lg-12
         p Pueden aplicarse algunas estrategias que podría usar cualquier tipo de establecimiento para el cuidado, la calidad e inocuidad de sus productos, alimentos y/o servicios. Conozca algunas de ellas:
 
-    .tarjeta.tarjeta--amarilla.p-4(style="background-color:##EEFFDE")
+    .tarjeta.tarjeta--amarilla.p-4(style="background-color:#EEFFDE")
       SlyderA(tipo="b")(data-aos="flip-right")
         .row
           .col-md-6.mb-4.mb-md-0
