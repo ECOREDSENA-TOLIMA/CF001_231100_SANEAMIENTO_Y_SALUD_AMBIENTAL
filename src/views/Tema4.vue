@@ -103,7 +103,7 @@
       .row(titulo="430 a.C." subtitulo="")
         .col-lg-6
           H3 Plaga de Atenas
-          p  Durante la Guerra de Peloponeso descrita por Homero, Heródoto      
+          p  Durante la Guerra de Peloponeso descrita por Homero, Heródoto.      
       .row(titulo="401 d.C." subtitulo="")
         .col-lg-6
           h3 Lucrecio, Ovidio y Virgilio 
@@ -111,11 +111,11 @@
       .row(titulo="1580" subtitulo="")
         .col-lg-6
           h3 Guillaume de Naillou.
-          p Es publicado el libro Epidemiorum
+          p Es publicado el libro Epidemiorum.
       .row(titulo="1598" subtitulo="")
         .col-lg-6
           h3 Quinto Tiberio Angelerio
-          p Se publica la primera referencia del término Epidemiologia
+          p Se publica la primera referencia del término Epidemiologia.
       .row(titulo="Siglo V" subtitulo="")
         .col-lg-6
           h3 La plaga
@@ -135,7 +135,7 @@
       .row(titulo="Siglo VIII" subtitulo="")
         .col-lg-6
           h3 Daniel Bernoulli
-          p Publica un trabajo que concluye que la variación protegía y daba inmunidad hacia la viruela 
+          p Publica un trabajo que concluye que la variación protegía y daba inmunidad hacia la viruela. 
       .row(titulo="Siglo XIX" subtitulo="")
         .col-lg-6
           h3 Pierre Charles
@@ -155,7 +155,7 @@
       .row(titulo="1980" subtitulo="")
         .col-lg-6
           h3 Síndrome de inmunodeficiencia Humana
-          p Diversos estudios epidemiológicos encontraron una fuerte asociación entre las prácticas sexuales y el riesgo de transmisión del Síndrome de inmunodeficiencia Humana
+          p Diversos estudios epidemiológicos encontraron una fuerte asociación entre las prácticas sexuales y el riesgo de transmisión del Síndrome de inmunodeficiencia Humana.
       .row(titulo="Siglo XX" subtitulo="")
         .col-lg-6
           h3 La epidemiología

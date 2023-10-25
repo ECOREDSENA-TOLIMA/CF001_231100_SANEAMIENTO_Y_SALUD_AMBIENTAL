@@ -139,7 +139,7 @@
                 img(src='@/assets/curso/temas/tema3/img5.svg', alt='').img125
             .col-lg
               h3 Contaminación hídrica
-              p se da por exceso de residuos en los lagos, ríos, plantas, cultivos, entre otros.
+              p Se da por exceso de residuos en los lagos, ríos, plantas, cultivos, entre otros.
           .row
             .col-lg
               h3 Contaminación acústica y lumínica
@@ -200,7 +200,7 @@
           .tarjeta.tarjeta--azul.tituhoja(style="background-color:#C1E29A;margin-left: -16%;")
             .row.justify-content-center.align-items-center              
               .col-lg-12
-                h2(style="color:#264100").mt-2 Enfermedades transmitidas por alimentoss
+                h2(style="color:#264100").mt-2 Enfermedades transmitidas por alimentos
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p Las buenas prácticas de saneamiento deben estar presentes en cada lugar de cualquier establecimiento, estas prácticas deben aplicarse también en los alimentos y son muy importantes, ya que pueden existir grandes contaminantes para la salud humana si no se realizan buenas prácticas. Así como los alimentos pueden tener muchas propiedades beneficiosas para el organismo, estas no son necesariamente seguras; estos riesgos pueden presentarse como peligros biológicos, químicos y físicos, y al mismo tiempo, subdividirse causando otros problemas de carácter biológico. 

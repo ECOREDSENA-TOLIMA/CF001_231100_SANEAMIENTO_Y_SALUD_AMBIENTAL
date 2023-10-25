@@ -10,7 +10,7 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Condiciones sanitarias y protocolos técnicos.
+          h2 Condiciones sanitarias y protocolos técnicos
         p.mb-4 #[b Objetivo] Identificar todas las condiciones sanitarias que deben tener los procesos, productos y servicios, siguiendo protocolos técnicos y las normas correspondientes. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
