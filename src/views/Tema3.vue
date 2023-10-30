@@ -17,13 +17,13 @@
 
 
     .row.justify-content-center.mb-1(data-aos="fade-left")
-      .col-md-9.desktop 
+      .col-md-10.desktop 
         .titulo-sexto.color-acento-contenido.offset-1
           h5 Figura 5.
           span  #[i  Metodología del ASIS]
     
     .row.justify-content-center.mb-5(data-aos="fade-left")
-      .col-md-8.desktop 
+      .col-md-10.desktop 
         figure
           img(src='@/assets/curso/temas/tema3/img2.svg', alt='En la figura 5 se muestran las necesidades y problemas sanitarios.')
           figcaption Nota. Ministerio de Salud (2018)
@@ -233,7 +233,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p Pueden aplicarse algunas estrategias que podría usar cualquier tipo de establecimiento para el cuidado, la calidad e inocuidad de sus productos, alimentos y/o servicios. Conozca algunas de ellas:
-
+    
     .tarjeta.tarjeta--amarilla.p-4(style="background-color:#EEFFDE")
       SlyderA(tipo="b")(data-aos="flip-right")
         .row
@@ -241,8 +241,7 @@
             h3 Determinar la ubicación 
             .row.mb-5
               .col-sm.mb-5.mb-sm-0
-                p Establecer el lugar o espacio de trabajo adecuado es fundamental para la comida de los empleados, la ventilación del aire y el buen desarrollo de las tareas, evitando, por ejemplo, en una cocina problemas de contaminación cruzada por alimentos.
-                  
+                p Establecer el lugar o espacio de trabajo adecuado es fundamental para la comida de los empleados, la ventilación del aire y el buen desarrollo de las tareas, evitando, por ejemplo, en una cocina problemas de contaminación cruzada por alimentos.                  
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img13.png', alt='')
@@ -252,7 +251,6 @@
             .row.mb-5
               .col-sm.mb-5.mb-sm-0
                 p Usar recipientes más higiénicos que eviten en mayor medida el contacto con el exterior, así mismo, tener orden y limpieza con estos es primordial para desarrollar buenas prácticas en la organización que sea.
-                  
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img14.png', alt='')
@@ -262,7 +260,6 @@
             .row.mb-5
               .col-sm.mb-5.mb-sm-0
                 p Hacerlo durante la exposición de temperaturas externas que tienen los productos o alimentos, ya que hay que tener en cuenta que los cambios bruscos de temperatura dificultan mantener la regulación térmica del alimento de manera adecuada.
-                  
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img15.png', alt='')
@@ -271,8 +268,7 @@
             h3 Zonas de peligro
             .row.mb-5
               .col-sm.mb-5.mb-sm-0
-                p Los alimentos pueden estar expuestos a la descomposición y las zonas de peligro, de igual forma aislarse de zonas de temperatura extremas y llevar un estimado de comidas que puedan sufrir alteraciones o deterioro rápidamente para vender las necesarias y no dejarlas para próximos días, almacenándolas de manera inadecuada.
-                  
+                p Los alimentos pueden estar expuestos a la descomposición y las zonas de peligro, de igual forma aislarse de zonas de temperatura extremas y llevar un estimado de comidas que puedan sufrir alteraciones o deterioro rápidamente para vender las necesarias y no dejarlas para próximos días, almacenándolas de manera inadecuada.                  
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img16.png', alt='')
@@ -281,8 +277,7 @@
             h3 Establecer zonas 
             .row.mb-5
               .col-sm.mb-5.mb-sm-0
-                p Espacios para separar productos fríos y calientes, así como recipientes y utensilios no aptos para contener alimentos o evitar la presencia de materiales como plástico y cartones que son materiales que pueden ocasionar un incendio o descomposición de algún producto.
-                  
+                p Espacios para separar productos fríos y calientes, así como recipientes y utensilios no aptos para contener alimentos o evitar la presencia de materiales como plástico y cartones que son materiales que pueden ocasionar un incendio o descomposición de algún producto.                  
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img17.png', alt='')
@@ -300,12 +295,10 @@
             h3 Alejar productos combustibles o sustancias inflamables
             .row.mb-5
               .col-sm.mb-5.mb-sm-0
-                p Alejar del puesto de trabajo productos como combustibles o sustancias inflamables, realizar carteles que informen normas básicas de bioseguridad al momento de consumir en el puesto y que el trabajador tenga los equipos correctos para la manipulación de los alimentos, mantener los recipientes cerrados y en lugares apropiados y realizar un automantenimiento semanal de elementos como el aceite, el gas, el asador, entre otros.
-                  
+                p Alejar del puesto de trabajo productos como combustibles o sustancias inflamables, realizar carteles que informen normas básicas de bioseguridad al momento de consumir en el puesto y que el trabajador tenga los equipos correctos para la manipulación de los alimentos, mantener los recipientes cerrados y en lugares apropiados y realizar un automantenimiento semanal de elementos como el aceite, el gas, el asador, entre otros.                  
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img19.png', alt='')
-
 </template>
 
 <script>
