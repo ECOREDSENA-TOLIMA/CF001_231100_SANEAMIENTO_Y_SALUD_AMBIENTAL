@@ -281,10 +281,10 @@ export default {
           centro: 'Regional Distrito Capital. Centro de Diseño y Metrología',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes ',
-          cargo: 'Asesor pedagógico ',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
         },
         {
           nombre: 'Julia Isabel Roberto',
@@ -293,13 +293,13 @@ export default {
         },
         {
           nombre: 'Humberto Arias Díaz',
-          cargo: 'Diseñador instruccional ',
-          centro: 'Regional Tolima – Centro de Comercio y Servicios  ',
+          cargo: 'Diseñador instruccional',
+          centro: 'Regional Tolima – Centro de Comercio y Servicios',
         },
         {
           nombre: 'Maria Inés Machado López',
-          cargo: 'Metodóloga ',
-          centro: 'Regional Tolima – Centro de Comercio y Servicios ',
+          cargo: 'Metodóloga',
+          centro: 'Regional Tolima – Centro de Comercio y Servicios',
         },
       ],
     },
@@ -307,7 +307,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'José Jaime Luis Tang Pinzón',
+          nombre: 'Yobanni Penagos',
           cargo: 'Diseñador web',
           centro: 'Regional Tolima  Centro de Comercio y Servicios',
         },
@@ -337,7 +337,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Jorge Bustos Gómez',
+          nombre: 'Mauricio Oviedo',
           cargo: 'Validación y vinculación en plataforma LMS',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
