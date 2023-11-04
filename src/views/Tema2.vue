@@ -194,7 +194,7 @@
         p En los países desarrollados cada año mueren casi 2 millones de niños debido a enfermedades que son provocadas por el agua contaminada. Esta agua también afecta negativamente a la flora y la fauna.
 
     .row
-      .col-lg-9
+      .col-lg-10
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
