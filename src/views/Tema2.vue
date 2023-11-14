@@ -8,24 +8,25 @@
       h1 Interpretación y descripción de las afectaciones a la salud
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         .cajon.color-primario.p-4.mb-4(style="background-color:#DBF9BD")          
           p Según lo mencionado por Soler Palau en 2019, la Organización Mundial de la Salud (OMS) dice que la salud ambiental está directamente relacionada con todos aquellos factores que se han mencionado con anterioridad, como los factores físicos, químicos y biológicos. Muchos estudios e informes publicados por esta organización han comprobado que los efectos de la contaminación en el aire y el agua son devastadores para la salud humana, además, el medio ambiente influye en más de un 80% de los casos de enfermedades graves de carácter respiratorio y cardiovascular.
       .col-lg-4
-        figure
+        figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema2/img1.png', alt='')
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12 Los impactos ambientales que más afectan a la salud son:
+      .col-lg-12(data-aos="fade-left")
+        p Los impactos ambientales que más afectan a la salud son:
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         .cajon.tarj-color.p-4.mb-4
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-10
               .row 
                 .col-lg-2.col-md-6.col-sm-6
-                  figure
+                  figure(data-aos="zoom-in")
                     img(src='@/assets/curso/temas/tema2/img2.svg', alt='')
                 .col-lg-4
                   ul.lista-ul
@@ -51,7 +52,7 @@
                       | Los modelos de producción insostenibles.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left")
         p Todos estos aspectos traen consecuencias en la salud también por factores como contaminación en el aire, la falta de acceso al agua potable y el saneamiento, la exposición a sustancias químicas nocivas, los desastres naturales que se relacionan con el clima, los desechos plásticos marinos y microplásticos que pueden llegar a afectar el agua potable, las enfermedades zoonóticas, entre otros. 
         p A continuación, revise detalladamente la alteración y la afectación que se tiene por el comportamiento climático: 
     
@@ -63,27 +64,27 @@
     
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-md-10.desktop 
-        figure
+        figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema2/img3.1.svg', alt='En la figura 3 se muestra las afectaciones de salud, provocadas por el comportamiento climático y como algunas de las epidemias se propagan entre la población por factores como la falta de agua y los cambios bruscos en el ambiente.')
           figcaption Nota. Tomado y adaptado del Boletín Epidemiológico del Ministerio de Salud (2018).
       
       .col-md-10.movil 
-        figure
+        figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema2/img3.2.svg', alt='En la figura 3 se muestra las afectaciones de salud, provocadas por el comportamiento climático y como algunas de las epidemias se propagan entre la población por factores como la falta de agua y los cambios bruscos en el ambiente.')
           figcaption Nota. Tomado y adaptado del Boletín Epidemiológico del Ministerio de Salud (2018).
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left")
         p Algunos factores son causados por la contaminación, y como efecto, pueden aparecer algunos tipos de enfermedades si se expone mucho tiempo a ellos. Los factores ambientales que influyen en la salud de las personas se dividen en algunos conceptos como:
 
-    TabsA.color-acento-botones.mb-5(style="background-color=#DBF9BD")
+    TabsA.color-acento-botones.mb-5(style="background-color=#DBF9BD")(data-aos="fade-left")
       .tarjeta.colorprimario--borde.p-4(titulo="Factores físicos")
         .row.justify-content-center.align-items-center.mb-5
           .col-md-9
             h4
             p Estos engloban todas aquellas condiciones externas que los rodean, como factores de temperatura, iluminación, ruido, olores, entre otros, que pueden provocar afectaciones fuertes sobre la salud e incluso disminuir la calidad de vida de la persona y su comportamiento. 
           .col-md-3             
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema2/img16.svg', alt='')
       .tarjeta.colorprimario--borde.p-4(titulo="Temperatura ambiental")
         .row.justify-content-center.align-items-center.mb-5
@@ -91,7 +92,7 @@
             h4
             p Se define como la relación de las condiciones térmicas del ambiente en el que las personas habitan, las temperaturas juegan un papel importante ya que un cambio en estas puede generar problemas de salud y supervivencia. 
           .col-md-3             
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema2/img17.svg', alt='')
       .tarjeta.colorprimario--borde.p-4(titulo="Contaminación ambiental")
         .row.justify-content-center.align-items-center.mb-5
@@ -99,7 +100,7 @@
             h4
             p Está dada por el aire contaminado que se respira, por la contaminación en el agua e incluso en el suelo, existe además contaminación atmosférica, acústica, lumínica, visual, radioactiva, electromagnética, alimentaria, química, biológica, entre otras. 
           .col-md-3             
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema2/img18.svg', alt='')
       .tarjeta.colorprimario--borde.p-4(titulo="Factores químicos")
         .row.justify-content-center.align-items-center.mb-5
@@ -107,7 +108,7 @@
             h4
             p Estos factores han ido aumentando a lo largo de los años y han aportado a ese aumento de enfermedades por causa de contaminantes ambientales, un ejemplo de ello, son las que se adquieren día a día en muchos hogares con el uso de cosméticos, detergentes, ropa, productos para el cabello, entre otros, que al entrar en el organismo afectan el sistema respiratorio y digestivo, incluso por contacto directo con estos elementos.
           .col-md-3             
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema2/img19.svg', alt='')
       .tarjeta.colorprimario--borde.p-4(titulo="Factores biológicos")
         .row.justify-content-center.align-items-center.mb-5
@@ -115,11 +116,11 @@
             h4
             p Estos factores lo componen animales, plantas y microorganismos como bacterias, virus, hongos, parásitos, vegetales, etc.
           .col-md-3
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema2/img20.svg', alt='')
 
     row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema2/img21.svg' alt='AvatarTop')
@@ -128,7 +129,7 @@
             p Las sustancias tóxicas y elementos naturales inorgánicos como el mercurio o el plomo pueden ser inhalados, ingeridos o absorbidos. Esto sucede porque no solo respiramos por la nariz, sino también los poros de nuestra piel están absorbiendo constantemente las sustancias que nos rodean haciendo que vayamos acumulando carga tóxica, y cuando sobrepasa los límites aceptables, empiezan a agravarse las enfermedades por la contaminación ambiental.
 
     .row
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
@@ -194,17 +195,17 @@
         p En los países desarrollados cada año mueren casi 2 millones de niños debido a enfermedades que son provocadas por el agua contaminada. Esta agua también afecta negativamente a la flora y la fauna.
 
     .row
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
+            img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 45%;margin-top: -15px;")
           .tarjeta.tarjeta--azul.tituhoja(style="background-color:#C1E29A;margin-left: -16%;")
             .row.justify-content-center.align-items-center              
               .col-lg-12
                 h2(style="color:#264100").mt-2 Sistema de alerta temprana ambiental para los efectos en salud
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left")
         p Las alertas son un aviso que se mencionan con anterioridad por la manifestación de algún acontecimiento que ponga en riesgo la vida de alguien, para este caso, el sistema de alerta temprana ambiental se da como consecuencia de la degradación y el manejo inapropiado de los recursos naturales por causa de actividades humanas invasivas, esta alerta temprana y de respuesta es un mecanismo de integración que recopila datos del ambiente y de la población para dirigir la respuesta de salud pública, y así, buscar reducir el tiempo entre la emisión de alerta y la participación en la respuesta, previendo cualquier tipo de riesgo. 
         p La Organización Mundial de la Salud y la OPS han diseñado dos tipos de vigilancia que se relacionan en el SATAES y, por consiguiente, se consideran tres tipos de variables para la estimación del riesgo como se muestra en la siguiente figura:
 
@@ -216,14 +217,14 @@
     
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-md-10.desktop 
-        figure
+        figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema2/img32.svg', alt='En la figura 4 se muestran los tipos de vigilancia y variables para la evaluación de riesgos.')
       .col-md-10.movil
-        figure
+        figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema2/img32_1.svg', alt='En la figura 4 se muestran los tipos de vigilancia y variables para la evaluación de riesgos.')
 
     .row
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
@@ -232,15 +233,15 @@
               .col-lg-12
                 h2(style="color:#264100").mt-2 Amenazas y emergencias ambientales
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img33.png')})`}"
       )
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 Las emergencias ambientales que se asocian con la contaminación y el mal manejo de las sustancias generan afectaciones en la población y también en el ambiente, esto puede causar varias amenazas y emergencias ambientales como desastres naturales, los cuales son ocasionados por fenómenos de la naturaleza que dejan grandes pérdidas materiales y vidas humanas; en estos acontecimientos no hay intervención de personas, así que estos pueden ser terremotos, inundaciones, tsunamis, huracanes, entre otros. Por otro lado, están los desastres antropónimos, estos, a diferencia de los naturales, son causados por la intervención de actividades humanas que repercuten en enormes daños o destrucciones que alteran el funcionamiento del entorno en general, pueden darse por la contaminación atmosférica por emisiones, contaminación por radiaciones nucleares, incendios forestales o derrames de compuestos químicos. 
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left")
         p.mb-0 Es importante mencionar que en estos factores de riesgo existen también amenazas como las geológicas, que son fenómenos naturales interpretados como fallas geológicas, emisiones volcánicas, deslizamientos, caídas de rocas, avalanchas, etc. Igualmente, están las amenazas meteorológicas, que son un fenómeno natural de origen atmosférico, hidrológico u oceanográfico como los ciclones, lluvias torrenciales, descargas eléctricas, tormentas de nieve, tormentas de arena, entre otros. Finalmente, también se consideran las amenazas sísmicas, de origen social, tecnológico y biológico.
 
     
