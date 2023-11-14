@@ -289,15 +289,21 @@ export default {
         {
           nombre: 'Julia Isabel Roberto',
           cargo: 'Correctora de estilo',
-          centro: 'egional Distrito Capital. Centro de Diseño y Metrología',
+          centro: 'Regional Distrito Capital. Centro de Diseño y Metrología',
         },
         {
-          nombre: 'Humberto Arias Díaz',
+          nombre: 'Jaslyth Juliana Eraso Casanova ',
+          cargo: 'Experta Temática',
+          centro:
+            'Regional Putumayo - Centro Agroforestal y Acuícola Arapaima. ',
+        },
+        {
+          nombre: 'Sergio Augusto Ardila Ortiz',
           cargo: 'Diseñador instruccional',
           centro: 'Regional Tolima – Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Maria Inés Machado López',
+          nombre: 'Viviana Esperanza Herrera Quiñonez',
           cargo: 'Metodóloga',
           centro: 'Regional Tolima – Centro de Comercio y Servicios',
         },
@@ -337,7 +343,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Mauricio Oviedo',
+          nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validación y vinculación en plataforma LMS',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
