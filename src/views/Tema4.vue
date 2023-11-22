@@ -307,11 +307,12 @@
             .p-4
               p Un caso cercano que realza la necesidad de este ámbito de estudio para asegurar la salud pública es el peligro potencial de introducción de virus tropicales como el #[i chikungunya] o el dengue, de la mano del mosquito tigre, #[i aedes albopictus], que hasta hace poco no tenía cabida en los territorios templados de Colombia. Con el paso del tiempo se está viendo una proliferación de las enfermedades tropicales transmitidas por artrópodos en Occidente.
 
+
 </template>
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema4',
   data: () => ({
     // variables de vue
   }),

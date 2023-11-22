@@ -7,11 +7,11 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/opcion-multiple.svg", alt="Opcion Múltiple")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Condiciones sanitarias y protocolos técnicos
-        p.mb-4 #[b Objetivo:] Identificar todas las condiciones sanitarias que deben tener los procesos, productos y servicios, siguiendo protocolos técnicos y las normas correspondientes. 
+        p.mb-4 #[b Objetivo:] identificar todas las condiciones sanitarias que deben tener los procesos, productos y servicios, siguiendo protocolos técnicos y las normas correspondientes. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
@@ -20,7 +20,6 @@
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
-                
 </template>
 
 <script>

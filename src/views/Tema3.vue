@@ -37,7 +37,7 @@
         p Este análisis es fundamental para impedir la ocurrencia de algún riesgo o la existencia de alguna situación que atente contra la salud de las personas. A estas medidas se les debe dar inmediata ejecución porque son de carácter preventivo y transitorio, y se aplican en todo caso las sanciones correspondientes si es el caso.
         p Ahora bien, es indispensable tener en cuenta algunas condiciones sanitarias mínimas, que deben siempre estar en correspondencia con la seguridad como las descritas a continuación:
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+        .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-6.p-2(data-aos="fade-down-left")
         .tarjeta-avatar-b.p-2.mb-5
           .tarjeta.tarjeta-verde.color-primario(style="background-color:#E7FFD1;margin-left:0px;height: 129px")
@@ -64,15 +64,32 @@
                 i.fas.fa-check(style="color:#63C500")
                 | Debe contar con el espacio suficiente que permita la circulación del aire y claramente del personal.
 
-      .col-lg-6(data-aos="fade-down-left")
-        .tarjeta-avatar-b.mb-5          
+      .col-lg-6.movil(data-aos="fade-down-left")
+        .tarjeta-avatar-b.mb-5
+          .tarjeta.tarjeta--azul.color-secundario(style="background-color:#E7FFD1;margin-left:0px;")
+            p.mb-3
+            ul.lista-ul
+              li
+                i.fas.fa-check(style="color:#63C500")
+                | Los pisos, muros, ventanas y puertas deberían ser de materiales impermeables, no absorbentes, lavables, antideslizantes y atóxicos. Cualquiera de estos elementos no debe tener grietas y deberán ser fáciles de limpiar y desinfectar.
+
+      .col-lg-6.desktop(data-aos="fade-down-left")
+        .tarjeta-avatar-b.mb-5
           .tarjeta.tarjeta--azul.color-secundario(style="background-color:#E7FFD1;margin-left:0px;height: 129px")
             p.mb-3
             ul.lista-ul
               li
                 i.fas.fa-check(style="color:#63C500")
                 | Los pisos, muros, ventanas y puertas deberían ser de materiales impermeables, no absorbentes, lavables, antideslizantes y atóxicos. Cualquiera de estos elementos no debe tener grietas y deberán ser fáciles de limpiar y desinfectar.
-      .col-lg-6(data-aos="fade-down-left")
+      .col-lg-6.movil(data-aos="fade-down-left")
+        .tarjeta-avatar-b.mb-5          
+          .tarjeta.tarjeta--azul.color-secundario(style="background-color:#E7FFD1;margin-left:0px;")
+            p.mb-3
+            ul.lista-ul
+              li
+                i.fas.fa-check(style="color:#63C500")
+                | Los servicios higiénicos del personal, la ventilación, la iluminación, las instalaciones de residuos sólidos y las de lavado son otros factores que deben permanecer en las mejores condiciones de salubridad y saneamiento.
+      .col-lg-6.desktop(data-aos="fade-down-left")
         .tarjeta-avatar-b.mb-5          
           .tarjeta.tarjeta--azul.color-secundario(style="background-color:#E7FFD1;margin-left:0px;height: 129px")
             p.mb-3
@@ -234,7 +251,7 @@
       .col-lg-12(data-aos="fade-left")
         p Pueden aplicarse algunas estrategias que podría usar cualquier tipo de establecimiento para el cuidado, la calidad e inocuidad de sus productos, alimentos y/o servicios. Conozca algunas de ellas:
     
-    .tarjeta.tarjeta--amarilla.p-4(style="background-color:#EEFFDE")
+    .tarjeta.tarjeta--azul.tarjeta-verde.p-4.mb-5
       SlyderA(tipo="b")(data-aos="flip-right")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -298,7 +315,7 @@
                 p Alejar del puesto de trabajo productos como combustibles o sustancias inflamables, realizar carteles que informen normas básicas de bioseguridad al momento de consumir en el puesto y que el trabajador tenga los equipos correctos para la manipulación de los alimentos, mantener los recipientes cerrados y en lugares apropiados y realizar un automantenimiento semanal de elementos como el aceite, el gas, el asador, entre otros.                  
           .col-md-6
             figure(data-aos="zoom-in")
-              img(src='@/assets/curso/temas/tema3/img19.png', alt='')
+              img(src='@/assets/curso/temas/tema3/img19.png', alt='Imagen decorativa')
 </template>
 
 <script>

@@ -135,7 +135,7 @@ export default {
       referencia:
         'Medicina Humana. (2015). <em>Historia de la epidemiología</em> [video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=YhcM9dJM6Ic',
+      link: 'https://www.youtube.com/watch?v=nutgsCn96OM',
     },
   ],
   glosario: [

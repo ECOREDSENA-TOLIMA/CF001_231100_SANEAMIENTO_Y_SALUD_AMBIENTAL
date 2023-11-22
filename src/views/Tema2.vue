@@ -146,53 +146,63 @@
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/img22.svg' alt='AvatarTop')        
-        p Enfermedades respiratorias, tales como el asma, la bronquitis y la neumonía/pulmonía.
+            img(src='@/assets/curso/temas/tema2/img22.svg' alt='AvatarTop')
+          .col-10
+            p.mt-4 Enfermedades respiratorias, tales como el asma, la bronquitis y la neumonía/pulmonía.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema2/img23.svg' alt='AvatarTop')        
-        p Enfermedades virales tales como el dengue, la fiebre amarilla o la hepatitis.
+          .col-10
+            p.mt-4 Enfermedades virales tales como el dengue, la fiebre amarilla o la hepatitis.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/img24.svg' alt='AvatarTop')        
-        p Enfermedades del sistema circulatorio, las cuales están relacionadas directamente con los gases que despiden los motores como el diesel.
+            img(src='@/assets/curso/temas/tema2/img24.svg' alt='AvatarTop')       
+          .col-10
+            p.mt-4 Enfermedades del sistema circulatorio, las cuales están relacionadas directamente con los gases que despiden los motores como el diesel.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema2/img25.svg' alt='AvatarTop')        
-        p Aumenta hasta en 20% el riesgo de padecer cáncer de pulmón.
+          .col-10
+            p.mt-4 Aumenta hasta en 20% el riesgo de padecer cáncer de pulmón.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema2/img26.svg' alt='AvatarTop')        
-        p Las comunidades pobres suelen envenenarse a sí mismas al usar fuentes de energía tóxicas como el carbón.
+          .col-10
+            p.mt-4 Las comunidades pobres suelen envenenarse a sí mismas al usar fuentes de energía tóxicas como el carbón.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/img27.svg' alt='AvatarTop')        
-        p La radioactividad/radiación es sumamente mortal. Una exposición prolongada a una cantidad considerable puede provocar severos tumores malignos en el cuerpo de la persona e incluso matarla. 
+            img(src='@/assets/curso/temas/tema2/img27.svg' alt='AvatarTop')       
+          .col-10
+            p.mt-4 La radioactividad/radiación es sumamente mortal. Una exposición prolongada a una cantidad considerable puede provocar severos tumores malignos en el cuerpo de la persona e incluso matarla. 
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/img28.svg' alt='AvatarTop')        
-        p Síntomas de una exposición menos prolongada pueden implicar pérdida de cabello, vómitos y mareos.
+            img(src='@/assets/curso/temas/tema2/img28.svg' alt='AvatarTop')       
+          .col-10
+            p.mt-4 Síntomas de una exposición menos prolongada pueden implicar pérdida de cabello, vómitos y mareos.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/img29.svg' alt='AvatarTop')        
-        p Enfermedades psicológicas o relacionadas con el sistema nervioso derivan de la contaminación sonora. Casos de insomnio, dolores de cabeza y otros han sido reportados.
+            img(src='@/assets/curso/temas/tema2/img29.svg' alt='AvatarTop')       
+          .col-10
+            p.mt-4 Enfermedades psicológicas o relacionadas con el sistema nervioso derivan de la contaminación sonora. Casos de insomnio, dolores de cabeza y otros han sido reportados.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/img30.svg' alt='AvatarTop')        
-        p La contaminación del agua afecta duramente a las comunidades con menos recursos o sin agua potable o limpia. Enfermedades como la malaria se propagan a través de este medio. Millones de adultos y niños mueren al año debido a la falta de agua limpia.
+            img(src='@/assets/curso/temas/tema2/img30.svg' alt='AvatarTop')       
+          .col-10
+            p.mt-4 La contaminación del agua afecta duramente a las comunidades con menos recursos o sin agua potable o limpia. Enfermedades como la malaria se propagan a través de este medio. Millones de adultos y niños mueren al año debido a la falta de agua limpia.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/img31.svg' alt='AvatarTop')        
-        p En los países desarrollados cada año mueren casi 2 millones de niños debido a enfermedades que son provocadas por el agua contaminada. Esta agua también afecta negativamente a la flora y la fauna.
+            img(src='@/assets/curso/temas/tema2/img31.svg' alt='AvatarTop')       
+          .col-10
+            p.mt-4 En los países desarrollados cada año mueren casi 2 millones de niños debido a enfermedades que son provocadas por el agua contaminada. Esta agua también afecta negativamente a la flora y la fauna.
 
     .row
       .col-lg-10(data-aos="fade-left")
@@ -243,10 +253,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
         p.mb-0 Es importante mencionar que en estos factores de riesgo existen también amenazas como las geológicas, que son fenómenos naturales interpretados como fallas geológicas, emisiones volcánicas, deslizamientos, caídas de rocas, avalanchas, etc. Igualmente, están las amenazas meteorológicas, que son un fenómeno natural de origen atmosférico, hidrológico u oceanográfico como los ciclones, lluvias torrenciales, descargas eléctricas, tormentas de nieve, tormentas de arena, entre otros. Finalmente, también se consideran las amenazas sísmicas, de origen social, tecnológico y biológico.
-
-    
-
-
+          
 </template>
 
 <script>

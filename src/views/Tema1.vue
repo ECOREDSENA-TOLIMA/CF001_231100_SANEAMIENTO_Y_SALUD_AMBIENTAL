@@ -20,7 +20,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
-        p Pueden llegar a generar un efecto sobre los animales, las plantas, el paisaje, la vegetación, algunos cambios de temperatura ambiental y algunas modificaciones en la estructura de los suelos. Además, es importante mencionar que cada componente ambiental tiene potencialidad de ser afectado por cualquier tipo de agente contaminante, deteriorando así el medio ambiente, por tanto, es indispensable conocer los conceptos que identifican cada uno de estos componentes, los tipo y clases que existen, las relaciones y la zoonosis y protocolos de manejo de fauna que pueden llegar a mitigar daños realmente agresivos no solo con el ambiente, sino que, además, con la salud humana.
+        p Pueden llegar a generar un efecto sobre los animales, las plantas, el paisaje, la vegetación, algunos cambios de temperatura ambiental y algunas modificaciones en la estructura de los suelos. Además, es importante mencionar que cada componente ambiental tiene potencialidad de ser afectado por cualquier tipo de agente contaminante, deteriorando así el medio ambiente, por tanto, es indispensable conocer los conceptos que identifican cada uno de estos componentes, los tipos y clases que existen, las relaciones y la zoonosis y protocolos de manejo de fauna que pueden llegar a mitigar daños realmente agresivos no solo con el ambiente, sino que, además, con la salud humana.
         p A continuación, se desglosan y sintetizan todos aquellos componentes que hacen parte del medio ambiente:
 
     .row.justify-content-center.mb-1(data-aos="fade-left")
@@ -44,8 +44,67 @@
         p Para entender el medio ambiente y los elementos que lo componen es importante hacer énfasis en algunas definiciones y recalcar que el medio ambiente está formado por elementos naturales y artificiales que se relacionan, pudiendo ser modificados por acciones humanas generando así otros tipos y clases de medio ambiente. 
         p Por lo tanto, algunos conceptos fundamentales que aportan al fortalecimiento de dicho tema son:
     
-    .tarjeta.tarjeta--amarilla.p-4.mb-5(style="background-color:#DBF9BD")
-      SlyderA(tipo="b")          
+    .movil.tarjeta.tarjeta--azul.tarjeta-verde.p-4.mb-5
+      SlyderA(tipo="b")
+        .row.justify-content-center.align-items-center(data-aos="flip-right")
+          .col-md-7.mb-4.mb-md-0
+            h3 Medio ambiente
+            p Es aquel espacio en el cual se desarrolla la vida de cualquier ser vivo, desde elementos químicos, físicos y biológicos hasta la interacción entre ellos, de igual manera, en este medio existen también los elementos artificiales, que son creados por el hombre.
+          .col-md-5.mb-4.mb-md-0
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/img3.png', alt='Medio ambiente')
+        .row.justify-content-center.align-items-center(data-aos="flip-right")
+          .col-md-7.mb-4.mb-md-0
+            h3 Organismos
+            p Son todos los seres vivos que componen diferentes espacios en la tierra, estos pueden cambiar y transformarse significativamente en forma, características y elementos primordiales, pasando de ser microorganismos a grandes animales. Esto sucede porque todos los organismos suponen la presencia de materia y una interacción permanente en el interior y exterior del ambiente.
+          .col-md-5.mb-4.mb-md-0
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/img4.png', alt='Organismos')
+        .row.justify-content-center.align-items-center(data-aos="flip-right")
+          .col-md-7.mb-4.mb-md-0
+            h3 Factores sidéricos
+            p Son todas aquellas características de la tierra, el sol y los satélites, entre estos puede estar la gravedad, la presión atmosférica y la duración del día.
+          .col-md-5.mb-4.mb-md-0
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/img5.png', alt='Factores sidéricos')
+        .row.justify-content-center.align-items-center(data-aos="flip-right")
+          .col-md-7.mb-4.mb-md-0
+            h3 Factores fisicoquímicos
+            p Estos factores son fundamentales en un ecosistema porque influyen en los cambios, comportamientos, distribución y adaptación de cualquier ser vivo, entre los factores químicos se encuentra el aire, el agua, el pH, la salinidad, entre otros. En cuanto a los factores físicos están los vientos, los derrumbes, las heladas, los relámpagos, las catástrofes, las corrientes marinas, etc. 
+          .col-md-5.mb-4.mb-md-0
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/img6.png', alt='Factores fisicoquímicos')
+        .row.justify-content-center.align-items-center(data-aos="flip-right")
+          .col-md-7.mb-4.mb-md-0
+            h3 Abiótico
+            p Estos seres son aquellos que carecen de vida; pero determinan el espacio físico del ambiente como el aire, el suelo y el agua, a pesar de ser seres sin vida, son esenciales para la subsistencia de todos los organismos vivos en el ecosistema.
+          .col-md-5.mb-4.mb-md-0
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/img7.png', alt='Abiótico')
+        .row.justify-content-center.align-items-center(data-aos="flip-right")
+          .col-md-7.mb-4.mb-md-0
+            h3 Biótico
+            p Este término hace referencia a todos los seres vivos que se encuentran presentes en un ambiente y que interactúan entre sí, estos pueden ser: bacterias microscópicas, hongos, flora, fauna e incluso los seres humanos.
+          .col-md-5.mb-4.mb-md-0
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/img8.png', alt='Biótico')
+        .row.justify-content-center.align-items-center(data-aos="flip-right")
+          .col-md-7.mb-4.mb-md-0
+            h3 Factores ecográficos
+            p Son las características principales de un paisaje natural, entre los cuales se encuentran los factores geográficos, que son aquellos de latitud o distancia desde la línea del ecuador, la altitud que va en el nivel del mar, la presión atmosférica, las estaciones o variación del clima durante el día. También pueden encontrarse los orográficos, que son aquellas cadenas de montañas altas, que tienen cambios del clima con la altura, las geológicas que son la composición de las rocas, las capas de sal, terremotos y deslizamientos. Los edáficos como el sol, los suelos que incluyen características físicas y químicas que determinan su composición. Los oceanográficos compuestos por corrientes marinas, temperaturas, salinidad y afloramientos de agua. Los climáticos que son la energía solar, la temperatura, las precipitaciones, la humedad, la nubosidad, los vientos, las heladas, etc.
+          .col-md-5.mb-4.mb-md-0
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/img9.png', alt='Factores ecográficos')
+        .row.justify-content-center.align-items-center(data-aos="flip-right")
+          .col-md-7.mb-4.mb-md-0
+            h3 Elementos artificiales
+            p De acuerdo con la definición corresponde a todos aquellos elementos creados por el ser humano, como la urbanización, la cultura y las tradiciones. La suma de estos valores naturales, culturales y sociales en un momento histórico y en un lugar en particular constituyen el medio ambiente.
+          .col-md-5.mb-4.mb-md-0
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/img10.png', alt='Elementos artificiales')
+
+    .tarjeta.tarjeta--azul.tarjeta-verde.p-4.mb-5.desktop
+      SlyderA(tipo="b")
         .row.justify-content-center.align-items-center(data-aos="flip-right")
           .col-md-7.mb-4.mb-md-0
             h3 Medio ambiente
@@ -127,7 +186,7 @@
               img(src='@/assets/curso/temas/tema1/img11.png', alt='Ecosistemas acuáticos')
           
         h2.text-center  Ecosistemas mixtos
-        p De este ecosistema hacen parte los componentes bióticos y abióticos, definidos con anterioridad y se define por los tipos de vegetación, que son establecidos por las condiciones ambientales y el tipo de clima que forme parte del mismo.
+        p Son aquellos que tienen los dos ambientes mencionados anteriormente: el terrestre y el acuático.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
@@ -137,7 +196,10 @@
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5(style="background-color:#E7FFD1;")(data-aos="fade-left")
         .row.justify-content-center.mb-4
-          .col-2
+          .col-2.desktop
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/img14.svg', alt='Ecosistema terrestre')
+          .col-6.movil
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img14.svg', alt='Ecosistema terrestre')
           
@@ -145,7 +207,10 @@
         p Es aquel que no ha sido creado ni modificado por el hombre, que no ha sido intervenido o afectado por el ser humano y está compuesto por un ambiente aéreo, acuático y terrestre, en cuanto al aéreo este como su nombre lo define, se desarrolla en el aire y, el ambiente acuático y el terrestre se encuentran en cuerpo de agua, el suelo, los bosques, maleza, boreales, el océano, entre otros.
       .col-md.tarjeta.color-secundario.p-5(data-aos="fade-left")
         .row.justify-content-center.mb-4
-          .col-2
+          .col-2.desktop
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/img15.svg', alt='Natural')
+          .col-6.movil
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img15.svg', alt='Natural')
           
@@ -165,23 +230,23 @@
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-2 
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/img16.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/img16.svg', alt='En la figura 2 se muestra un esquema de responsabilidad cultural.')
     
       .col-lg-2
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/img16_1.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/img16_1.svg', alt='En la figura 2 se muestra un esquema de responsabilidad cultural.')
       
       .col-lg-2
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/img16_2.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/img16_2.svg', alt='En la figura 2 se muestra un esquema de responsabilidad cultural.')
       
       .col-lg-2
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/img16_3.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/img16_3.svg', alt='En la figura 2 se muestra un esquema de responsabilidad cultural.')
 
       .col-lg-2
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/img16_4.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/img16_4.svg', alt='En la figura 2 se muestra un esquema de responsabilidad cultural.')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
@@ -226,7 +291,8 @@
 
       .col-lg-4
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/img18.png', alt='')
+          img(src='@/assets/curso/temas/tema1/img18.png', alt='Imagen decorativa')
+
 
 </template>
 

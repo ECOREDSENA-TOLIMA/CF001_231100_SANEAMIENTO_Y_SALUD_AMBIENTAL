@@ -1,11 +1,10 @@
 .banner-principal-decorativo
-  &-3
-    width: 120px
-    animation: rotation 8s infinite linear
+  &-5
+    width: 300px
+    animation: scale 2.8s ease-in-out infinite alternate
     position: absolute
-    bottom: 30%
-    right: 85%
-    z-index: -1
+    top: 10%
+    right: 40%
   &-4
     width: 75px
     animation: float2 2.8s ease-in-out infinite alternate
@@ -13,23 +12,23 @@
     bottom: 70%
     left: 70%
   &-1
-    width: 120px
+    width: 100px
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 55%
     right: 80%
   &-2
-    width: 100px
+    width: 80px
     animation: scale 2.8s ease-in-out infinite alternate
     position: absolute
     top: 10%
     right: 10%
-  &-5
-    width: 70px
-    animation: rotation 4s infinite linear
+  &-3
+    width: 450px
+    animation: rotation 2s infinite linear
     position: absolute
     bottom: 15%
-    left: 15%
+    left: 1%
     z-index: -1
 
 .banner-principal__img
@@ -67,14 +66,13 @@
   overflow: hidden
   height: 450px
 
+.banner-interno__titulo__icono 
+  background-color: #000 !important
+.banner-interno__titulo h2
+  color: #000 !important
 @media (min-width: 1440px)
   .banner-principal__img
-    width: 45%
-
-@media (min-width: 576px)
-  .ps-sm-5
-    padding-left: 3rem!important
-    margin-top: -100px
+    width: 35%
 
 .bloque-derecha
   .bloque-texto-g__img
@@ -118,7 +116,7 @@
   background-color: #E6E7EE
 
 .tarjeta-verde 
-  background-color: #DBF9BD
+  background-color: #EEFFDE
 
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
   background-color: #DBF9BD
@@ -236,6 +234,17 @@
   background-color:#C1E29A
   max-height: 50px
 
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #7816c2
+  color:#FFFFFF
+  opacity: 1
+.slyder-a__bullets__item 
+  background-color: #bcacc7
+.slyder-a__bullets__item--active
+    background-color: #7816c2
+    border-color: #7816c2
+    opacity: 1
+
 @media (min-width: 992px)
   .desktop 
     display: inline
@@ -249,3 +258,44 @@
     display: inline
   .desktop 
     display: none
+  .slyder__action
+    justify-content: flex-start
+.movilslyder
+  display: inline
+  background-color:#EEFFDE
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #DFEAF1
+
+.acordion__accion__btn--b
+  background-color: #7816c2 !important
+  border-color: #7816c2 !important
+
+.acordion__accion__btn--b .fas
+  color: white
+
+.acordion__activo
+  background-color: #EEFFDE !important
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 1) 
+
+    
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #7816C2
+  color: white
